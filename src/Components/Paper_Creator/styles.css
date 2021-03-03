@@ -1,12 +1,48 @@
 #heading{
     color: darkkhaki;
     font-size: 3rem;
-    margin-left: 25rem;
+    font-family: cursive;
+    margin-left: 20rem;
 }
-img{
-    margin-left: 368px;
+#reset{
+    border-radius: 20px;
+    margin-left: 240px;
+    height: 2rem ;
+    width: 2rem ;
+    cursor:pointer;
 }
 #span{
     margin-left: 25rem;
     margin-right: 1rem;
 }
+input{
+    border-radius: 7px;
+}
+span{
+    color: white;
+    /* font-family: cursive; */
+}
+#bg{
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: auto;
+    /* height: 1000%; */
+    width: 100%;
+    /* animation: slide 60s linear infinite; */
+}
+#outer-container{
+    border: 2px solid white ;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 12.5rem;
+}
+/* @keyframes slide{
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(-1692px, 0, 0);
+    }
+  } */
+  

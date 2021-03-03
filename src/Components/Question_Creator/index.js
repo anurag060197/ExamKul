@@ -19,7 +19,7 @@ const Question_Creator = () => {
         }
     }
     return (
-        <Container style={{border : "#cecece groove 2px", height : "12rem"}}>
+        <Container id="inner-container" >
             <br></br>
             <Form>
                 <Form.Group>

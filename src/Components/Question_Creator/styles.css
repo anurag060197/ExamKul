@@ -1,3 +1,8 @@
+#inner-container{
+    border : #cecece groove 2px; 
+    height : 12rem;
+    border-radius: 5px;
+}
 span{
     margin-left: 2rem;
 }
