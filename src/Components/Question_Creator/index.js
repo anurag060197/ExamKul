@@ -34,7 +34,9 @@ const Question_Creator = () => {
                     <input type="text" placeholder="Text area" style={{width:"20rem"}}/>
                     <span> Image Link : </span>
                     <input type="text" placeholder="url"/><br></br><br></br>
-                    <div>{options}</div>
+                    <div>
+                        {options}
+                    </div>
                 </Form.Group>
             </Form>
         </Container>

@@ -29,6 +29,10 @@ const Paper_Creator = () => {
         }
     }
 
+    const handleSubmit = ()=>{
+        alert("Question Paper Submitted Successfully !")
+    }
+
     const reset = ()=>{
         setQuestion([]);
         setCount(3);
@@ -49,8 +53,9 @@ const Paper_Creator = () => {
                     <span id="span">Test Name : </span>
                     <input type="text" placeholder="paper name" />
                 </div>
-                {question.length != 0 ? <span>Total Questions : {question.length}</span> : null}<br></br>
+                {question.length != 0 ? <span style={{fontSize: "x-large"}}>Total Questions : {question.length}</span> : null}<br></br>
                 {question}<br></br>
+                <Button id="submit" variant="outline-light" onClick={handleSubmit}>Submit</Button><br/><br/>
             </Container>
         </>
     );

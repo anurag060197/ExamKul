@@ -14,35 +14,29 @@
 #span{
     margin-left: 25rem;
     margin-right: 1rem;
+    font-size: x-large;
 }
 input{
     border-radius: 7px;
 }
 span{
     color: white;
+    font-size: large;
     /* font-family: cursive; */
 }
 #bg{
     background-repeat: no-repeat;
     background-size: contain;
     overflow-y: auto;
-    /* height: 1000%; */
     width: 100%;
-    /* animation: slide 60s linear infinite; */
 }
 #outer-container{
     border: 2px solid white ;
     border-radius: 10px;
     position: absolute;
     top: 0;
-    left: 12.5rem;
+    left: 13rem;
 }
-/* @keyframes slide{
-    0%{
-      transform: translate3d(0, 0, 0);
-    }
-    100%{
-      transform: translate3d(-1692px, 0, 0);
-    }
-  } */
-  
+#submit{
+    margin-left: 32rem;
+}

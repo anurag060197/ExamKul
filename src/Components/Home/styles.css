@@ -1,0 +1,9 @@
+.custom{
+    background-color: cornsilk;
+    border: black solid 1px;
+    height: 30rem;
+    
+    position: absolute;
+    top: 10rem;
+    right: 10rem;
+}
