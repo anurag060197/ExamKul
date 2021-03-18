@@ -1,0 +1,56 @@
+header{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* padding: 40px 100px; */
+    z-index: 100;
+    /* display: flex;
+    justify-content: space-around; */
+    align-items: center;
+    transition: 0.5s;
+    /* CSS transitions allows you to change property values smoothly, over a given duration. */
+    padding-inline-end: 40px;
+    /* margin-top: 10px; */
+}
+/* header.sticky{
+    background: #fff;
+    padding-left: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    margin-top: 0px;
+} */
+/* header .logo{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+} */
+/* header.sticky .logo{
+    color: #fff;
+} */
+
+header .navbar{
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+header .navbar li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-weight: 400px;
+}
+header .navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+header.sticky .navbar li a{
+    color: black;
+}
+header .navbar li a:hover{
+    color: red;
+    font-size: 1.9rem;
+    transition: 0.5s;
+}

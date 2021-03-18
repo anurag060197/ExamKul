@@ -7,10 +7,13 @@ const Home = () => {
     return (
         <>
             <Nav_bar />
-            {/* <Images /> */}
-            <Container className="custom" >
-                <h3 style={{marginLeft: "7rem"}}>Examiner</h3>
-                <Button>shghjg</Button>
+            <Images />
+            <Container style={{width: "20rem"}} className="custom" >
+                <h3 id="head">Examiner</h3>
+                <div id="btns">
+                    <a style={{backgroundColor: "blue"}} href="create" className="btn">Create Paper</a><br></br>
+                    <a style={{backgroundColor: "blue"}} href="show" className="btn">Show Paper</a>
+                </div>
             </Container>
         </>
     );

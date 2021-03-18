@@ -1,9 +1,35 @@
 .custom{
-    background-color: cornsilk;
-    border: black solid 1px;
+    /* background-color: bisque; */
+    /* background-image: url("https://wallpapercave.com/wp/wp2610931.jpg"); */
+    background: linear-gradient(to left,rgb(113, 185, 233),rgb(151, 151, 235), rgb(218, 204, 204));
+    border: gray solid 15px;
+    box-shadow: 0 5px 35px rgba(red, green, blue, alpha);
     height: 30rem;
-    
+    /* width: 10rem; */
     position: absolute;
     top: 10rem;
-    right: 10rem;
+    right: 5rem;
+}
+#head{
+    text-align: center;
+}
+#btns{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn{
+    font-size: 1em;
+    color: crimson;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+.btn:hover{
+    letter-spacing: 7px;
 }

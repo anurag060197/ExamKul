@@ -47,8 +47,10 @@ const Paper_Creator = () => {
             <Container id="outer-container" >
                 <span id="heading">Create Question Paper</span>
                 <img id="reset" onClick={reset} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTarGbeXmrCa8NQ4uXAxzGg6WcuQGnKHpE-wg&usqp=CAU"/><br></br>
-                <Button id="plus_button" variant="outline-light" style={{marginLeft:"0.5rem"}} onClick={handlePlusBtn}><b>+</b></Button>
-                <Button id="minus_button" variant="outline-light" style={{marginLeft:"64rem"}} onClick={handleMinusBtn}><b>-</b></Button><hr></hr>
+                <div id="button">
+                    <Button variant="outline-light"  onClick={handlePlusBtn}><b>+</b></Button>
+                    <Button variant="outline-light" onClick={handleMinusBtn}><b>-</b></Button>
+                </div><hr></hr>
                 <div id="display">
                     <span id="span">Test Name : </span>
                     <input type="text" placeholder="paper name" />
